@@ -1,0 +1,60 @@
+{
+
+  "name": "JSMTProxy",
+
+  "version": "1.0.0",
+
+  "description": "High Performance NodeJS MTProto Proxy",
+
+  "main": "mtproxy.js",
+
+  "scripts": {
+
+    "start": "pm2 start mtproxy.js -i max"
+
+  },
+
+  "dependencies": {
+
+    "pm2": "^4.5.4"
+
+  },
+
+  "engines": {
+
+    "node": ">=10.0.0",
+
+    "npm": ">=6.0.0"
+
+  },
+
+  "repository": {
+
+    "type": "git",
+
+    "url": "https://github.com/AncientCatz/JSMTProxy"
+
+  },
+
+  "keywords": [
+
+    "node",
+
+    "mtproto",
+
+    "proxy"
+
+  ],
+
+  "author": "AncientCatz",
+
+  "contributors": [
+
+    "AncientCatz <admin@ancientcatz.eu.org> (http://profile.ancientcatz.eu.org/)"
+
+  ],
+
+  "license": "MIT"
+
+}
+
